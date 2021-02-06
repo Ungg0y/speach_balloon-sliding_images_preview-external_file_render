@@ -1,0 +1,107 @@
+.no-margin-bottom {
+  margin-bottom:0;
+}
+
+.scenario-wrap {
+  display:none;
+}
+
+.gray-out {
+  background-color:#E6E7E8;
+}
+
+.small-font {
+  font-size:0.8em;
+}
+
+#main {
+  background-color:transparent;
+}
+
+#bg-image {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:0;
+  background-color:rgba(0,0,0,0.5);
+}
+
+.dark-bg {
+  background-image:url(../img/dark-bg.png);
+  background-repeat:repeat;
+  background-size:cover;
+  background-position:left bottom;
+}
+
+.btn.gray {
+  background-color:#333;
+}
+
+.btn-scenario {
+  margin-bottom:15px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  width:200px;
+}
+
+#continue-part2-btn {
+  margin-top:15px;
+  margin-bottom:15px;
+  border:2px solid #fff;
+  background-color:#333;
+}
+
+#continue-part2-btn.red {
+  background-color:#C01818;
+}
+
+#continue-part2-btn .btn {
+  border:none;
+}
+
+.scenario-choice-wrap p {
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.scenario-building-thumb {
+  margin:0 auto;
+  width:200px;
+  height:150px;
+  background-repeat:no-repeat;
+  background-size:200px 150px;
+  background-position:center;
+}
+
+.scenario-building-btn-wrap {
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.scenario-1-building.gray {
+  background-image:url(../img/scenario-1-gray.svg);
+}
+
+.scenario-1-building.selected {
+  background-image:url(../img/scenario-1-selected.svg);
+}
+
+.scenario-2-building.gray {
+  background-image:url(../img/scenario-2-gray.svg);
+}
+
+.scenario-2-building.selected {
+  background-image:url(../img/scenario-2-selected.svg);
+}
+
+.scenario-3-building.gray {
+  background-image:url(../img/scenario-3-gray.svg);
+}
+
+.scenario-3-building.selected {
+  background-image:url(../img/scenario-3-selected.svg);
+}
+

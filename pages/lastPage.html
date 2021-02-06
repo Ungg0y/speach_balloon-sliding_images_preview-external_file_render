@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branching</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/course.css">
+    <link rel="stylesheet" href="../css/alternative-template.css">
+    <link rel="stylesheet" href="../css/multiple-choice.css">
+    <link rel="stylesheet" href="../css/multiple-choice-chat.css">
+    <link rel="stylesheet" href="../css/multiple-selection.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+    <link rel="stylesheet" href="../css/branching.css">
+</head>
+
+<body id="pageWrapper" class="bg-gradient-dark-blue-3">
+    <style>
+    .dontDisplay,
+    .seriesOfImages
+    {
+        display: none;
+    }
+    .hideElement
+    {
+        opacity: 0;
+    }
+    .imgHolder img
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    [class^="col-"]
+    {
+        margin: 5px 0;
+    }
+</style>
+
+<audio id="audio">
+    <source data-path="PPTSlide3Congrats.mp3" type="audio/mpeg">
+</audio>
+<script>
+    var pageFinish = true;
+    var audioProgress = 0;
+    var audioPlayed = true;
+    var bgImage = {background: "#097296 url(./img/bg1.png) center center no-repeat",filter:"none"};
+</script>
+    <h1 class="dontDisplay">Screen Title -&nbsp;Course Finish</h1>
+    <div id="transcriptTextWrapper" class="dontDisplay">
+        <div id="transcriptText">
+            <p>N/A </p>
+        </div>
+    </div>
+    <div id="wrapperPage">
+        <div id="wrapper">
+            <div id="main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 flex-container flex-container-align-center element-position-relative percentByHeight" data-desktop-height="100" data-tablet-height="100">
+                            <div class="min-padding min-padding element-center">
+                                <h1 class="wht-text text-center">You have completed this activity, and may now close this window. </h1></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="transcript">
+            <div class="row">
+                <div class="col-lg-6 col-lg-push-3 col-md-6 col-md-push-3 col-sm-6 col-sm-push-3" id="transcriptBox">
+                    <div id="transcriptCloseBtn"><span>X </span></div>
+                    <div id="transcriptShow"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/jquery.main.js"></script>
+    <script src="../js/glossary.js"></script>
+    <script src="../js/wrapper.js"></script>
+    <script src="../js/custom-code.js"></script>
+    <script src="../js/scenario-1.js"></script>
+    <script src="../js/scenario-2.js"></script>
+    <script src="../js/scenario-3.js"></script>
+    <script src="../js/cloud-workshop-invite.js"></script>
+    <script src="../js/global.js"></script>
+    <script src="../js/init.js"></script>
+    <script src="../js/multiple-choice.js"></script>
+    <script src="../js/multiple-choice-chat.js"></script>
+    <script src="../js/multiple-selection.js"></script>
+    <script src="../js/branching.js"></script>
+</body>
+
+</html>
